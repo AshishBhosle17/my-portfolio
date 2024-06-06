@@ -1,15 +1,5 @@
-import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
-} from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+import { SiExpress, SiPrisma, SiNextdotjs } from "react-icons/si";
+import { FramerMotionIcon, ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -22,7 +12,7 @@ import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
 import ReactjsSvg from "@/public/icons/reactjs.svg";
-import SolidjsSvg from "@/public/icons/solidjs.svg";
+
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
@@ -38,7 +28,6 @@ import PostgressSvg from "@/public/icons/postgresql.svg";
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
 import DockerSvg from "@/public/icons/docker.svg";
-import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
@@ -82,10 +71,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Nextjs",
         icon: SiNextdotjs,
       },
-      {
-        name: "Solidjs",
-        icon: SolidjsSvg,
-      },
+
       {
         name: "React Router Dom",
         icon: ReactRouterDomIcon,
@@ -110,10 +96,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Vite",
         icon: ViteSvg,
       },
-      {
-        name: "Vite PWA",
-        icon: VitePwaIcon,
-      },
     ],
   },
   {
@@ -126,14 +108,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Express",
         icon: SiExpress,
-      },
-      {
-        name: "Socket.io",
-        icon: SiSocketdotio,
-      },
-      {
-        name: "Flask",
-        icon: SiFlask,
       },
     ],
   },
@@ -165,10 +139,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Docker",
         icon: DockerSvg,
       },
-      {
-        name: "AWS",
-        icon: AwsSvg,
-      },
+
       {
         name: "Postman",
         icon: PostmanSvg,

@@ -1,6 +1,5 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -69,41 +68,29 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref: "https://github.com/AshishBhosle17/nextjs-music-app",
   },
   {
-    name: "My portfolio",
+    name: "My Portfolio",
     favicon: "/favicon.ico",
-    imageUrl: [
-      "/images/projects/portfolio.jpg",
-      "/images/projects/portfolioLight.webp",
-    ],
+    imageUrl: ["/images/projects/portfolio.jpg"],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
-    liveWebsiteHref: siteMetadata.siteUrl,
+    sourceCodeHref: "https://github.com/AshishBhosle17/my-portfolio",
   },
   {
-    name: "Covid Tracker",
+    name: "e-Commerce Website",
     favicon: "/images/projects/logos/covidtracker.ico",
-    imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
-    ],
+    imageUrl: ["/images/projects/ecom-app.png"],
     description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
+      "Fully responsive and multi-page Ecommerce website using HTML CSS and JS. Dynamic Product listing and interactive elements like hover effects, flexbox and CSS grid for layouts",
+    sourceCodeHref: "https://github.com/AshishBhosle17/Ecommerce-web-site",
+    liveWebsiteHref: "https://ecommerce-site-by-ashish.vercel.app/#",
   },
   {
-    name: "Stock predictor",
+    name: "REACT Routing App",
     favicon: "/images/projects/logos/stockpredictor.ico",
-    imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
-    ],
+    imageUrl: ["/images/projects/react-route.png"],
     description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "Integrated React Router with state management libraries like Redux for managing application-wide state related to routing.",
+    sourceCodeHref: "https://github.com/AshishBhosle17/React-Routing-Website",
+    liveWebsiteHref: "https://react-routing-website-psi.vercel.app/",
   },
 ];
