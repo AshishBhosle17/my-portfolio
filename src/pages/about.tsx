@@ -2,7 +2,7 @@ import { NextSeo } from "next-seo";
 
 import AboutHero from "@/components/about-hero";
 import ExperienceShowcaseList from "@/components/experience/experience-showcase-list";
-import { EXPERIENCE } from "@/data/experience";
+
 import { EDUCATION } from "@/data/education";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
@@ -10,18 +10,18 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About Amit Chauhan | React and Frontend Developer"
-        description="Learn more about Amit Chauhan, a dedicated React and Frontend Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
+        title="About Ashish Bhosle | Web Developer"
+        description="Learn more about Ashish Bhosle, a dedicated Web Application Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Amit Chauhan - React and Frontend Developer",
+          title: "Learn About Ashish Bhosle - Web Developer",
           description:
-            "Dive into the story of Amit Chauhan, a React and Frontend Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
+            "Dive into the story of Ashish Bhosle, a Web Application Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Ashish Bhosle - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -34,12 +34,12 @@ export default function About() {
           {
             property: "keywords",
             content:
-              "About Me, React Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Professional Journey, Skills, Passion for Web Development",
+              "About Me, MERN Stack Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Professional Journey, Skills, Passion for Web Development",
           },
         ]}
       />
       <AboutHero />
-      <ExperienceShowcaseList title="Experience" details={EXPERIENCE} />
+
       <ExperienceShowcaseList title="Education" details={EDUCATION} />
     </>
   );

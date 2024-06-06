@@ -5,90 +5,74 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "E-commerce App",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["MERN", "JWT", "Postman API", "Braintree Paypal"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/ecom.jpeg",
+      DARK: "/images/projects/ecom.jpeg",
     },
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "Food Ordering Platform",
     href: "/projects",
     tags: [
-      "Reactjs",
-      "Tailwindcss",
-      "Scss",
+      "MERN",
+      "React",
       "Vite",
-      "React-router-dom",
-      "Redux",
-      "Vercel",
+      "Typescript",
+      "Shadcn",
+      "Auth0",
+      "Stripe CLI",
     ],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/mern-food.jpeg",
+      DARK: "/images/projects/mern-food.jpeg",
     },
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "Music App",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
+    tags: ["Nextjs", "Typescript", "Tailwindcss", "Aceternity-ui", "Vercel"],
     image: {
-      LIGHT: "/images/projects/kanbanLight.webp",
-      DARK: "/images/projects/kanbanDark.webp",
+      LIGHT: "/images/projects/music-app.jpg",
+      DARK: "/images/projects/music-app.jpg",
     },
   },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
+    name: "E-commerce App",
     favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
-    ],
+    imageUrl: ["/images/projects/ecom.jpeg", "/images/projects/ecom.jpeg"],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "Implemented Product Display, Filtering, Load More, CRUD Operations, User Authentication (Register, Login, Forgot Password), Sluggified URLs, and Braintree PayPal Integration",
+    sourceCodeHref: "https://github.com/AshishBhosle17/mern-stack-ecom",
   },
   {
-    name: "Kanban app",
+    name: "Food Ordering Platform",
     favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
-    ],
+    imageUrl: ["/images/projects/mern-food.jpeg"],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+      "Secure User Authentication, advanced Search functionality with sorting and filtering options, enabled pagination with LIVE Order Tracking/Status. Along with Stripe payment gateway and STRIPE CLI",
+    sourceCodeHref: "https://github.com/AshishBhosle17/mern-food-app",
   },
   {
-    name: "Many Games",
+    name: "Nextjs Music-App",
     favicon: "/images/projects/logos/manygames.ico",
-    imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
-    ],
+    imageUrl: ["/images/projects/music-app.jpg"],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "Built a User friendly, interactive and intuitive Music-app using Aceternity- an open-source UI library and its components along with Tailwind CSS",
+    sourceCodeHref: "https://github.com/AshishBhosle17/nextjs-music-app",
   },
   {
     name: "My portfolio",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/images/projects/portfolioDark.webp",
+      "/images/projects/portfolio.jpg",
       "/images/projects/portfolioLight.webp",
     ],
     description:

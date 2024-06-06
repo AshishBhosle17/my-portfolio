@@ -4,34 +4,32 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
     title: "Bachelor Of Engineering in Electronics and Telecommunication",
     organisation: {
-      name: "Rizvi College Of Engineering",
-      href: "https://eng.rizvi.edu.in/",
+      name: "Thakur College Of Engineering & Technology",
+      href: "https://www.tcetmumbai.in/",
     },
-    date: "2019-2023",
-    location: "Bandra, Mumbai",
+    date: "2021-2025",
+    location: "Kandivali, Mumbai",
     description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
+      "Relevant courses included Data Structures and Algorithms, Web Design, Computer Communication Network, Software Automation and Database Management.",
   },
   {
     title: "Higher Secondary School",
     organisation: {
-      name: "Mithibai College",
-      href: "https://www.mithibai.ac.in/",
+      name: "Thakur College of Science & Cmmerce",
+      href: "https://www.tcsc.edu.in/",
     },
-    date: "2016-2018",
-    location: "Vile Parle, Mumbai",
-    description:
-      "Completed the course in Electronics Bifocal Science with 68%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
+    date: "2019-2021",
+    location: "Kandivali, Mumbai",
+    description: "Completed the course in Computer Science with 81%",
   },
   {
     title: "Secondary School Education",
     organisation: {
-      name: "Holy Family High School",
-      href: "https://holyfamilyandheri.org/",
+      name: "Thakur Vidya Mandir High School",
+      href: "/",
     },
-    date: "2017-2018",
-    location: "Andheri, Mumbai",
-    description:
-      "Learned good values,dedication and disciplne. Played district football for 5 years.",
+    date: "2016-2019",
+    location: "Kandivali, Mumbai",
+    description: "Learned good values,dedication and disciplne.",
   },
 ];

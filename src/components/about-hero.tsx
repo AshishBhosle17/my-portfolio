@@ -4,7 +4,7 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "@/public/images/heroProfile.png";
+import heroProfileImg from "@/public/images/IMG_20231008_225617.jpg";
 
 export default function AboutHero() {
   return (
@@ -27,14 +27,21 @@ export default function AboutHero() {
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
-              Hi, I&apos;m Amit Chauhan
+              Hi, I&apos;m Ashish
             </h1>
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into reality with code. Whether I&apos;m working on
-              a website or any digital product, I bring my commitment to design
-              excellence and user-centered thinking to every project I work on.
+              A hobbyist Web Application Developer currently diving deep into
+              MERN Stack. I excel in navigating the realms of databases,
+              server-side logic, and creating seamless user interfaces. My
+              proficiency in MERN Stack allows me to develop robust, scalable,
+              and efficient web applications. Additionally, I am skilled in
+              TypeScript and Next.js, enabling me to enhance code quality and
+              performance while implementing modern, server-rendered
+              applications. I am adept at handling both the back-end and
+              front-end components, ensuring a smooth and cohesive user
+              experience.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
