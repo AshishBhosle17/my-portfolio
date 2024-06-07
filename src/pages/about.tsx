@@ -12,15 +12,15 @@ export default function About() {
       <NextSeo
         title="About Ashish Bhosle | Web Developer"
         description="Learn more about Ashish Bhosle, a dedicated Web Application Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
-        canonical={`${siteMetadata.siteUrl}/about`}
+        canonical={`/about`}
         openGraph={{
-          url: `${siteMetadata.siteUrl}/about`,
+          url: `/about`,
           title: "Learn About Ashish Bhosle - Web Developer",
           description:
             "Dive into the story of Ashish Bhosle, a Web Application Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
           images: [
             {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
+              url: `${siteMetadata.twitterImage}`,
               alt: "Ashish Bhosle - Portfolio Image",
             },
           ],
