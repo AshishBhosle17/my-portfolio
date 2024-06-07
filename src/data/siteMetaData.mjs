@@ -5,8 +5,8 @@ export const siteMetadata = {
   description: "Frontend and Reactjs developer",
   language: "en-us",
   theme: "light",
-  siteName: "amitchauhan.me",
-  siteUrl: "https://amitchauhan.me",
+  siteName: "ashishbhosle.me",
+  
   siteRepo: "https://github.com/AshishBhosle17/my-portfolio",
   siteLogo: "/favicon.ico",
   image: "/static/homepage.png",
