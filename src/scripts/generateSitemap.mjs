@@ -32,7 +32,7 @@ async function generateSitemap() {
 
                 return `
                         <url>
-                            <loc>${siteMetadata.siteUrl}${path}</loc>
+                            <loc>${path}</loc>
                         </url>
                     `;
               })
@@ -55,6 +55,6 @@ async function generateSitemap() {
 
 const robotsTxt = `User-agent: *
 Allow: /
-Sitemap: ${siteMetadata.siteUrl}/sitemap.xml`;
+Sitemap: /sitemap.xml`;
 
 generateSitemap();
