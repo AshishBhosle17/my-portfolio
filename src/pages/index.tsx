@@ -16,11 +16,11 @@ export default function Home() {
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <NextSeo
         title="Ashish Bhosle | Web Developer"
-        description="Explore the professional portfolio of Ashish Bhosle, a skilled React and Frontend Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        description="Explore the professional portfolio of Ashish Bhosle, a skilled MERN Stack Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         openGraph={{
-          title: "Ashish Bhosle - React and Frontend Developer Portfolio",
+          title: "Ashish Bhosle - Web Developer Portfolio",
           description:
-            "Dive into the world of web development with Ashish Bhosle. Discover a React and Frontend Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Ashish Bhosle. Discover a MERN Stack Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata}${siteMetadata.twitterImage}`,
